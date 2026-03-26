@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEST</title>
+</head>
+<body>
+    Ouvrir la console pour voir le test
+
+    <script type="module">
+      import style from './eros.js';
+
+      const erosStyle = style.underline.italic.bold['#F88'];
+      console.log(erosStyle.toString());
+      console.log('My name is %cEros', erosStyle.toString());
+      
+    </script>
+</body>
+</html>
